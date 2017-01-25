@@ -45,7 +45,6 @@ public class BookServiceTest {
     }
     
 
-
     @Test
     public void testfindAllBooks() {
     	
@@ -53,8 +52,8 @@ public class BookServiceTest {
   
     	Assert.assertNotNull(bookList);
     	Assert.assertEquals(8, bookList.size());
-    	Assert.assertEquals("Sun Tzu", bookList.get(0).getAuthor());
-    	Assert.assertEquals("The Art of War", bookList.get(0).getTitle());
+    	Assert.assertEquals("Sun Tzu", bookList.get(2).getAuthor());
+    	Assert.assertEquals("The Art of War", bookList.get(2).getTitle());
     }
 
     
