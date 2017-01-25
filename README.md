@@ -3,7 +3,7 @@ Notes
 
 To run the application do the following steps:
 
-!. Get the code from Github repository by
+1. Get the code from Github repository by
 	git clone https://github.com/nishanf/fonseka-NLA-TestWebApp
 
 2. Change into the application directory
